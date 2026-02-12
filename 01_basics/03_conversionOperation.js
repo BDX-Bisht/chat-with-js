@@ -41,4 +41,9 @@ let stringNumber = String(someNumber);
 //* 33 => "33"
 //* true => "true"
 
-//!===============
+//! *********************** Operations *************************
+
+let value = 33;
+let negValue = -value;
+
+console.log(negValue);
