@@ -38,3 +38,16 @@ const obj4 = { ...obj1, ...obj2, ...obj3 };
 // console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+//!--- Destructured In Objects----
+
+const course = {
+  name: "Js in hindi",
+  coursePrice: 999,
+  instructor: "hitesh",
+};
+
+const { instructor: inst } = course;
+
+console.log(course["name"]);
+console.log(inst);
