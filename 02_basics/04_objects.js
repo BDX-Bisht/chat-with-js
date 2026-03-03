@@ -11,13 +11,13 @@ tinderUser.isLoggedIn = false;
 // console.log(tinderUser);
 
 const regularUser = {
-  email: "demo@gmail.com",
-  fullname: {
-    userFullName: {
-      firstName: "Demo",
-      lastName: "Kumar",
+    email: "demo@gmail.com",
+    fullname: {
+        userFullName: {
+            firstName: "Demo",
+            lastName: "Kumar",
+        },
     },
-  },
 };
 
 // console.log(regularUser?.fullname);
@@ -42,9 +42,9 @@ const obj4 = { ...obj1, ...obj2, ...obj3 };
 //!--- Destructured In Objects----
 
 const course = {
-  name: "Js in hindi",
-  coursePrice: 999,
-  instructor: "hitesh",
+    name: "Js in hindi",
+    coursePrice: 999,
+    instructor: "hitesh",
 };
 
 const { instructor: inst } = course;
